@@ -1,0 +1,15 @@
+npm init  //comando para iniciar proyecto con node
+
+//instalo dependencias
+
+npm install bcrypt-nodejs //sirve para encriptar las contraseñas de los clientes
+npm install body-parser //sirve para parsear y obtener informacion de un post en formato json
+npm install connect-multiparty //sirve para guardar recursos como imagenes y fotos en nuestro backend
+npm install express //es un framework
+npm install moment //manejador de fechas para los tokens y otras cosas
+npm install mongoose //nos da un modelado de nuestro mongo db
+npm install jsonwebtoken //nos permite generar un token con la info de usuario
+npm install jwt-simple //decodifican los token y verifican si son validos
+
+luego debo instalar nodemon
+npm install --save-dev nodemon //sirve para actualizar los cambios dinamicamente
